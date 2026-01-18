@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.result {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #e8f6f3;
+    border: 1px solid #d4efdf;
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.result h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #16a085;
+}
+
+.price-tag {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #95a5a6;
+    font-size: 0.8rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

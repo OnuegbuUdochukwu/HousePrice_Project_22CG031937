@@ -1,0 +1,6 @@
+Name: [Your Name]
+Matric Number: [Your Matric Number]
+Machine Learning Algorithm Used: Random Forest Regressor
+Model persistence method used: Joblib (.pkl)
+Live URL of the hosted application: [Enter Render URL here]
+GitHub repository link: https://github.com/OnuegbuUdochukwu/HousePrice_Project_22CG031937.git
