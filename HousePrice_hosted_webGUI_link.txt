@@ -1,6 +1,6 @@
-Name: [Your Name]
-Matric Number: [Your Matric Number]
+Name: ONUEGBU UDOCHUKWU
+Matric Number: 22CG031937
 Machine Learning Algorithm Used: Random Forest Regressor
 Model persistence method used: Joblib (.pkl)
-Live URL of the hosted application: [Enter Render URL here]
+Live URL of the hosted application: https://houseprice-project-22cg031937.onrender.com
 GitHub repository link: https://github.com/OnuegbuUdochukwu/HousePrice_Project_22CG031937.git
